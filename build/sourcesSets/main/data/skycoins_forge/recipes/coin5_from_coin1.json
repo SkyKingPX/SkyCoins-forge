@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skycoins:coin1"
+    },
+    {
+      "item": "skycoins:coin1"
+    },
+    {
+      "item": "skycoins:coin1"
+    },
+    {
+      "item": "skycoins:coin1"
+    },
+    {
+      "item": "skycoins:coin1"
+    }
+  ],
+  "result": {
+    "item": "skycoins:coin5",
+    "count": 1
+  }
+}
