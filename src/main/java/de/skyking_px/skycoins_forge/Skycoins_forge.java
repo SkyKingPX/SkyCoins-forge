@@ -24,8 +24,8 @@ import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(SkyCoins.MODID)
-public class SkyCoins {
+@Mod(Skycoins_forge.MODID)
+public class Skycoins_forge {
 
     // Define mod id in a common place for everything to reference
     public static final String MODID = "skycoins";
@@ -47,7 +47,7 @@ public class SkyCoins {
                 output.accept(ModItems.COIN1.get());
             }).build());
 
-    public SkyCoins() {
+    public Skycoins_forge() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
